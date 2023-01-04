@@ -16,8 +16,8 @@ class myArray {
     }
 
     /**
-* insertAt
-*/
+    * insertAt
+    */
     public insertAt(item: number, index: number): void {
         /*  in JavaScript or TypeScript even we passed invalid index
             we do not get any error but here I have implemented because 
