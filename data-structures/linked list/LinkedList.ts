@@ -196,6 +196,28 @@ class LinkedList {
     }
 
     /**
+     * printMiddle
+     */
+    public printMiddle(): void {
+        if (!this.first || !this.last) {
+            throw new Error("Linked List is empty!")
+        }
+
+        let pointer = this.first
+        let current = this.first
+        while (current !== this.last && current.next !== this.last) {
+            current = current.next!.next!
+            pointer = pointer.next!
+        }
+
+        if (current === this.last) {
+            console.log(pointer.value)
+        } else {
+            console.log(pointer.value, pointer.next?.value)
+        }
+    }
+
+    /**
     * print
     */
     public print(): void {
