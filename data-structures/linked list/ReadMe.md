@@ -20,18 +20,18 @@ when we no not have an idea about how many items we have
 ##
     Space Complexity
 
-|                 |      Arrays       |    Linked List    |
-| :-------------- | :---------------: | :---------------: |
-| <b>Search</b>   |                   |                   |
-| - by index      | <mark>O(1)</mark> |       O(n)        |
-| - by value      |       O(n)        |       O(n)        |
-| <b>Insert</b>   |                   |                   |
-| - beginning/end |       O(n)        | <mark>O(1)<mark>  |
-| - middle        |       O(n)        |       O(n)        |
-| <b>Delete</b>   |                   |                   |
-| - beginning     |       O(n)        | <mark>O(1)</mark> |
-| - middle        |       O(n)        |       O(n)        |
-| - end           |       O(n)        |       O(n)        |
+|                 | Arrays |    Linked List    |
+| :-------------- | :----: | :---------------: |
+| <b>Search</b>   |        |                   |
+| - by index      | O(1) 🔥 |       O(n)        |
+| - by value      |  O(n)  |       O(n)        |
+| <b>Insert</b>   |        |                   |
+| - beginning/end |  O(n)  | <mark>O(1)<mark>  |
+| - middle        |  O(n)  |       O(n)        |
+| <b>Delete</b>   |        |                   |
+| - beginning     |  O(n)  | <mark>O(1)</mark> |
+| - middle        |  O(n)  |       O(n)        |
+| - end           |  O(n)  |       O(n)        |
 
 <br />
 
