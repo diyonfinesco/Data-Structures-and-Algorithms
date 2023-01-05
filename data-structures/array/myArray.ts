@@ -1,4 +1,4 @@
-class myArray {
+class MyArray {
     private items: number[];
     private count = 0;
 
@@ -83,8 +83,8 @@ class myArray {
     /**
      * intersect
      */
-    public intersect(array: myArray): myArray {
-        const intersection = new myArray(this.count);
+    public intersect(array: MyArray): MyArray {
+        const intersection = new MyArray(this.count);
 
         for (let i = 0; i < this.count; i++) {
             const current = this.items[i]
@@ -135,4 +135,4 @@ class myArray {
     }
 }
 
-export default myArray;
+export default MyArray;
