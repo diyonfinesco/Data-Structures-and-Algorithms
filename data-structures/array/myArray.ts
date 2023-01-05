@@ -10,7 +10,7 @@ class MyArray {
     * insert
     */
     public insert(item: number): void {
-        this.increaseArrayIf()
+        this.increaseArrayIfNeeded()
 
         this.items[this.count++] = item;
     }
@@ -27,7 +27,7 @@ class MyArray {
             throw new Error("index is not valid!")
         }
 
-        this.increaseArrayIf()
+        this.increaseArrayIfNeeded()
 
         for (let i = this.count - 1; i >= index; i--) {
             this.items[i + 1] = this.items[i]
@@ -118,7 +118,7 @@ class MyArray {
         }
     }
 
-    private increaseArrayIf() {
+    private increaseArrayIfNeeded() {
         /* this condition is not useful for JavaScript or TypeScript
             but here I have implemented because this is useful for 
             if arrays are fixed like in Java

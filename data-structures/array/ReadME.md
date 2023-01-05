@@ -9,6 +9,6 @@
 when know how many items we have
 
 
-## Other 📝
+## Notes 📝
 * simplest data structure
 * static (java) vs dynamic (python, javascript) 
