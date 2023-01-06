@@ -1,4 +1,4 @@
-## LIFO - Last In  First Out
+## Stack (LIFO - Last In  First Out)
 
 ## Performance 🚀
 * push(item) - **O(1)**
