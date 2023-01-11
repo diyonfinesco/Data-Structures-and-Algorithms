@@ -1,11 +1,12 @@
 ## Stack (LIFO - Last In  First Out)
 
 ## Performance 🚀
-* push(item) - **O(1)**
-* pop()      - **O(1)**
-* peek()     - **O(1)**
-* isEmpty()  - **O(1)**
-
+<pre>
+* push(item) - O(1)
+* pop()      - O(1)
+* peek()     - O(1)
+* isEmpty()  - O(1)
+</pre>
 ## When to use 🤔
 when know how many items we have
 
