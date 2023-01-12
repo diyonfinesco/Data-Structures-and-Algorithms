@@ -10,8 +10,9 @@
 | isFull()      |    O(1)    |     -      |
 
 <br />
-## When to use 🤔
 
+## When to use 🤔
+* Sharing a resource amongst many customers
 
 
 ## Notes 📝
