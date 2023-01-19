@@ -21,6 +21,7 @@ when we want to lookups for some value
   * JavaScript/TypeScript - Object
   * Python - Dictionary
   * C# - Dictionary
+* However what happened if our hash function generates a same index twice? we cannot save two values in same index. which means collision. to solve that problem we can point each index of the array to linked list. this is what we call chaining. second option is to save the value in different index. for that there are few algorithms.
 <br />
 <br />
 * Hash Tables store <b><i>KEY,VALUE</i></b> pair
